@@ -1,5 +1,3 @@
-# PredicaoPoluicaoRNN
-
 # Previsão de Poluição com Redes Neurais Recorrentes (RNN)
 
 ## Descrição do Projeto
