@@ -32,46 +32,31 @@ Instale as dependências do projeto utilizando o gerenciador de pacotes `pip`:
 
 ```bash
 pip install numpy pandas matplotlib tensorflow scikit-learn
-
+```
 Como Executar
+Clone o repositório e navegue até o diretório do projeto.
 
-1. Clone o repositório e navegue até o diretório do projeto.
+Abra o notebook PredicaoPoluicaoRNN.ipynb no Jupyter Notebook ou Google Colab.
 
-
-2. Abra o notebook PredicaoPoluicaoRNN.ipynb no Jupyter Notebook ou Google Colab.
-
-
-3. Execute as células sequencialmente para:
+Execute as células sequencialmente para:
 
 Processar os dados
-
 Configurar e treinar o modelo RNN
-
 Avaliar a precisão do modelo
-
-```bash
-
-```bash
 Configurações do Modelo
-
 O modelo RNN foi configurado com os seguintes parâmetros:
 
 Número de épocas: 50 (personalizável)
-
 Tamanho do batch: 32
-
 Camadas ocultas: 2 camadas LSTM com 50 neurônios cada
-
 Função de perda: mean_squared_error
-
 Otimizador: adam
 
-
-Exemplo de Uso
-
+# Exemplo de Uso
 Abaixo está um exemplo de como utilizar o modelo para previsão após o treinamento:
-
+```bash
 import numpy as np
+```
 
 # Dados de entrada para previsão
 novo_dado = np.array([...])  # Insira os valores do novo dado para previsão
@@ -79,20 +64,11 @@ novo_dado = np.array([...])  # Insira os valores do novo dado para previsão
 # Previsão
 previsao = modelo.predict(novo_dado)
 print("Previsão de poluição:", previsao)
-
-```bash
-
 Contribuições
-
 Sinta-se à vontade para abrir issues para relatar problemas ou discutir melhorias. Contribuições são bem-vindas através de pull requests.
 
 Licença
-
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
 
 Contato
-
-Para mais informações, entre em contato pelo email: andrerovaijr722@gmail.com
-
-
-
+Para mais informações, entre em contato pelo email: andrerovaijr722@gmail.com 
