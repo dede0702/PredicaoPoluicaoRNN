@@ -6,15 +6,15 @@ Este projeto utiliza Redes Neurais Recorrentes (RNN) para prever níveis de polu
 
 ## Estrutura do Projeto
 
-- **`PredicaoPoluicaoRNN.ipynb`**: O notebook principal contendo o código para processamento, treinamento e avaliação do modelo RNN.
-- **Dados**: Dataset utilizado para o treinamento do modelo, contendo variáveis atmosféricas e de poluição.
+- `PredicaoPoluicaoRNN.ipynb`: O notebook principal contendo o código para processamento, treinamento e avaliação do modelo RNN.
+- Dados: Dataset utilizado para o treinamento do modelo, contendo variáveis atmosféricas e de poluição.
   
 ## Funcionalidades
 
-- **Processamento de dados**: Limpeza e transformação dos dados para alimentar o modelo.
-- **Criação do modelo RNN**: Configuração de uma Rede Neural Recorrente personalizada para previsão de séries temporais.
-- **Treinamento do modelo**: Treinamento do modelo utilizando dados históricos de poluição.
-- **Avaliação**: Análise do desempenho do modelo com métricas de erro.
+- Processamento de dados: Limpeza e transformação dos dados para alimentar o modelo.
+- Criação do modelo RNN: Configuração de uma Rede Neural Recorrente personalizada para previsão de séries temporais.
+- Treinamento do modelo: Treinamento do modelo utilizando dados históricos de poluição.
+- Avaliação: Análise do desempenho do modelo com métricas de erro.
 
 ## Requisitos
 
@@ -36,7 +36,7 @@ pip install numpy pandas matplotlib tensorflow scikit-learn
 Como Executar
 Clone o repositório e navegue até o diretório do projeto.
 
-Abra o notebook PredicaoPoluicaoRNN.ipynb no Jupyter Notebook ou Google Colab.
+Abra o notebook `PredicaoPoluicaoRNN.ipynb` no Jupyter Notebook ou Google Colab.
 
 Execute as células sequencialmente para:
 
@@ -59,16 +59,21 @@ import numpy as np
 ```
 
 # Dados de entrada para previsão
+```bash
 novo_dado = np.array([...])  # Insira os valores do novo dado para previsão
+```
 
 # Previsão
+```bash
 previsao = modelo.predict(novo_dado)
 print("Previsão de poluição:", previsao)
-Contribuições
+```
+
+# Contribuições
 Sinta-se à vontade para abrir issues para relatar problemas ou discutir melhorias. Contribuições são bem-vindas através de pull requests.
 
-Licença
+# Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
 
-Contato
+# Contato
 Para mais informações, entre em contato pelo email: andrerovaijr722@gmail.com 
