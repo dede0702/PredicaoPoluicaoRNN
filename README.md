@@ -49,9 +49,9 @@ Configurar e treinar o modelo RNN
 
 Avaliar a precisão do modelo
 
+```bash
 
-
-
+```bash
 Configurações do Modelo
 
 O modelo RNN foi configurado com os seguintes parâmetros:
@@ -79,6 +79,8 @@ novo_dado = np.array([...])  # Insira os valores do novo dado para previsão
 # Previsão
 previsao = modelo.predict(novo_dado)
 print("Previsão de poluição:", previsao)
+
+```bash
 
 Contribuições
 
